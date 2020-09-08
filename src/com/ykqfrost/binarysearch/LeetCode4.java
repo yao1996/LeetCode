@@ -1,4 +1,4 @@
-package com.ykqfrost;
+package com.ykqfrost.binarysearch;
 
 /**
  * @author ykq
