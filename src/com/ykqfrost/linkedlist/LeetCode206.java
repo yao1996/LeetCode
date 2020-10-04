@@ -22,7 +22,7 @@ public class LeetCode206 {
         if (head == null) {
             return null;
         }
-        return reverseIteaion(head);
+        return reverseIteration(head);
     }
 
     public ListNode reverseRecursion(ListNode preNode, ListNode node) {
@@ -34,7 +34,7 @@ public class LeetCode206 {
         return reverseRecursion(node, next);
     }
 
-    public ListNode reverseIteaion(ListNode node) {
+    public ListNode reverseIteration(ListNode node) {
         ListNode next = node.next;
         node.next = null;
         while (next != null) {
